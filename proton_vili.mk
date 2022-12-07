@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/vili/device.mk)
 
 # Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/proton/config/common.mk)
 
 EXTRA_UDFPS_ANIMATIONS := true
 
@@ -20,7 +20,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := vili
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 2107113SG
-PRODUCT_NAME := evolution_vili
+PRODUCT_NAME := proton_vili
 
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
